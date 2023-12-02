@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ContactsTitle = styled.h2`
-  color: ${p => p.theme.colors.accentText};
+  color: ${p => p.theme.colors.gray};
   font-size: ${p => p.theme.fontSizes.l};
   font-weight: ${p => p.theme.fontWeights.bold};
   text-align: center;

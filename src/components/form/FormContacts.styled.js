@@ -14,16 +14,19 @@ export const Input = styled(Field)`
   padding: ${p => p.theme.space[2]}px;
   border-radius: ${p => p.theme.radii.normal};
   border: ${p => p.theme.borders.normal};
+  color: ${p => p.theme.colors.darkGray};
+  background-color: ${p => p.theme.colors.lightGray};
   :hover,
   :focus {
-    border: ${p => p.theme.borders.normal} ${p => p.theme.colors.accent};
+    border: ${p => p.theme.borders.normal} ${p => p.theme.colors.gray};
   }
 `;
+
 export const InputName = styled.label`
   display: flex;
   flex-direction: column;
   margin-top: ${p => p.theme.space[2]}px;
-  color: ${p => p.theme.colors.accentText};
+  color: ${p => p.theme.colors.gray};
 `;
 
 export const SubmitButton = styled.button`
@@ -33,13 +36,13 @@ export const SubmitButton = styled.button`
   width: 140px;
   margin-top: ${p => p.theme.space[4]}px;
   padding: ${p => p.theme.space[2]}px;
-  color: ${p => p.theme.colors.accentText};
-  background-color: ${p => p.theme.colors.white};
+  color: ${p => p.theme.colors.darkGray};
+  background-color: ${p => p.theme.colors.lightGray};
   border: ${p => p.theme.borders.normal};
   border-radius: ${p => p.theme.radii.normal};
   :hover,
   :focus {
-    color: white;
-    background-color: ${p => p.theme.colors.accentText};
+    color: ${p => p.theme.colors.darkGray};
+    background-color: ${p => p.theme.colors.gray};
   }
 `;
